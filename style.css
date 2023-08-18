@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+  color: white; /* This is for text color, to ensure readability on a dark background */
+}
+
+.heading{
+  text-align : center;
+/*   text-decoration: underline; */
+/*   background-color: black; */
+}
+
+
+.dropdown{
+  display: inline-block;
+  background-color:blue;
+  margin-left: 43%;
+  margin-top:5%;
+/*   padding-left:44%; */
+  
+}
+
+.dropdown-content{
+  display:none;
+  text-align:center;
+  posistion: absolute;
+}
+
+.dropdown:hover .dropdown-content{
+  display:block;
+  background-color:white;
+  
+}
+
+.dropdown-content a{
+  display:block;
+  background-color:white;
+}
+
+a{
+  color:black;
+  text-decoration: none;
+}
