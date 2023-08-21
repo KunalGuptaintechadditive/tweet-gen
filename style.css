@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  color: white; /* This is for text color, to ensure readability on a dark background */
+  color: #a3a3a3; /* This is for text color, to ensure readability on a dark background */
 }
 
 .heading{
@@ -19,24 +19,37 @@ body {
   
 }
 
+.dropbtn{
+  width: 200px;
+  display:inline-block;
+}
+
 .dropdown-content{
   display:none;
-  text-align:center;
+/*   text-align:center; */
   posistion: absolute;
+  min-width: 160px;
+  width: auto;
+   max-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
 .dropdown:hover .dropdown-content{
   display:block;
-  background-color:white;
-  
+  background-color:#a3a3a3;
+   max-height: 200px; /* Set the maximum height of the scrollable area */
+  overflow-y: auto; /* Enable vertical scrolling */
 }
 
 .dropdown-content a{
   display:block;
   background-color:white;
+  border-bottom: 2px solid black;
 }
 
 a{
   color:black;
   text-decoration: none;
+ 
 }
